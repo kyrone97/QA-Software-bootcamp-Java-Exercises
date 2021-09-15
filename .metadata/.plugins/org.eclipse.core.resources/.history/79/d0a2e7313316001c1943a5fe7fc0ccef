@@ -1,0 +1,12 @@
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "yesterday it was raining";
+		String str2 = "today it is sunny";
+		System.out.println(str1.toUpperCase() + str2.toUpperCase());
+
+	}
+
+}
