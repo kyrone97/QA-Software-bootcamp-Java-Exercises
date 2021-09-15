@@ -1,0 +1,16 @@
+
+public class Conditionals {
+
+	public static void main(String[] args) {
+		Divide(10,5);
+	}
+
+	private static void Divide(double numOne, double numTwo) {
+		if (numOne > numTwo) {
+			System.out.println(numOne /numTwo);
+		} else {
+			System.out.println("division not possible");
+		}
+	}
+
+}

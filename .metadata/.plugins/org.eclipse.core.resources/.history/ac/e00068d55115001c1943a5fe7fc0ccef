@@ -1,0 +1,26 @@
+
+public class Conditionals {
+
+	public static void main(String[] args) {
+		Divide(3,5);
+		FlowCharts(10,15);
+	}
+// if first input is large than second input do division else print statement
+	private static void Divide(double numOne, double numTwo) {
+		if (numOne > numTwo) {
+			System.out.println(numOne /numTwo);
+		} else {
+			System.out.println("division not possible");
+		}
+	}
+// if true sum up the two inputs, if false multiply the two inputs.
+	private static void FlowCharts( int num1, int num2) {
+		boolean choice = true;
+		
+		if(choice) {
+			System.out.println(num1 + num2);
+		} else {
+			System.out.println(num1 * num2);
+		}
+	}
+}

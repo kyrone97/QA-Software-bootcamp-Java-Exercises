@@ -1,0 +1,27 @@
+
+public class OperatorsExample {
+
+	public static void main(String[] args) {
+		System.out.println(Add(5, 5));
+		System.out.println(Multiply(5, 5));
+		System.out.println(Divide(10, 5));
+
+
+	}
+	// Create a method that accepts two integers as input, then returns an integer
+	// that is the sum of these two parameters. (Addition)
+
+	private static int Add(int numOne, int numTwo) {
+		return numOne + numTwo;
+	}
+	
+	private static int Multiply(int numOne, int numTwo) {
+		return numOne * numTwo;
+	}
+	
+	private static double Divide(double numOne, double numTwo) {
+		return numOne / numTwo;
+	}
+
+}
+

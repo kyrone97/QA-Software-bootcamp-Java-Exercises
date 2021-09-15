@@ -1,0 +1,16 @@
+
+public class OperatorsExample {
+
+	public static void main(String[] args) {
+		System.out.println(hello(5, 5));
+
+	}
+	// Create a method that accepts two integers as input, then returns an integer
+	// that is the sum of these two parameters. (Addition)
+
+	private static int hello(int numOne, int numTwo) {
+		return numOne + numTwo;
+
+	}
+
+}

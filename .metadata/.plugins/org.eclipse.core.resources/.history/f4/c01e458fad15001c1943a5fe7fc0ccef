@@ -1,0 +1,25 @@
+
+public class Iterations {
+
+	public static void main(String[] args) {
+		iterations();
+		
+
+	}
+
+	private static void iterations() {
+		int A = 100;
+		boolean letters = true;
+		
+		while(letters) {
+			System.out.println("A");
+			A++;
+			if (A >200) {
+				letters = false;
+				
+			}
+		}
+		System.out.println("end");
+
+	}
+}
