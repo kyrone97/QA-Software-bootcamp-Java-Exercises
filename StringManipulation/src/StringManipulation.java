@@ -26,9 +26,10 @@ public class StringManipulation {
 			System.out.println(str1.charAt(i));
 		}
 
-		// When given a String, print out this String in a vertical fashion, each word
-		// on a different line.
+		// When given a String, print out this String in a vertical fashion in reverse order,
+		//each word on a different line.
 
+		
 	}
 	
 	private static void StringDemo() {
