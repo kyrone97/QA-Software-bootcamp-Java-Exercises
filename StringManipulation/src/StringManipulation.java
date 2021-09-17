@@ -2,6 +2,8 @@
 public class StringManipulation {
 
 	public static void main(String[] args) {
+		StringDemo();
+		
 		// TODO Auto-generated method stub
 
 		// Concatenate both values, capitalise both strings and print out the result.
